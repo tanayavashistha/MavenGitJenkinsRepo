@@ -1,11 +1,13 @@
 package testscripts;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class Test1 {
   @Test
   public void testMethod1() {
 	  System.out.println("In testMethod1()");
+	  System.out.println("TestMethod1 done");  
   }
   
   @BeforeSuite
